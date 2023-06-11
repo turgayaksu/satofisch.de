@@ -6,7 +6,7 @@ import '~/assets/css/style.css';
 
 import routes from './routes';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('wrapper')).render(
   <React.StrictMode>
     <RouterProvider router={routes} />
   </React.StrictMode>
