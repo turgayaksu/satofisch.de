@@ -4,16 +4,16 @@ import { CiMenuFries } from 'react-icons/ci';
 
 export default function Header() {
   return (
-    <header className='mt-5 md:mt-10'>
-      <div className='flex justify-between'>
-        <Link to='/'>
+    <header className='mt-8'>
+      <div className='flex justify-between items-center align-middle'>
+        <Link to='/' className='m-0 p-0 h-auto'>
           <img
             src={Logo}
             alt='Sato Fisch'
             className='h-4 w-full object-cover md:h-8 opacity-80'
           />
         </Link>
-        <Link to='/'>
+        <Link to='/' className='m-0 p-0'>
           <CiMenuFries size={24} />
         </Link>
       </div>

@@ -34,7 +34,7 @@ export default function Footer() {
           </Link>
         </div>
         <div className='text-xs md:text-sm mt-3 md:mt-0 text-center text-white/70 hover:text-white'>
-          © 2023 SatoFish, Alle Rechte vorbehalten
+          © 2023 SatoFisch. Alle Rechte vorbehalten.
         </div>
       </div>
     </div>
