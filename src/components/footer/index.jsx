@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
     <div className='mb-5'>
-      <div className='flex justify-between'>
+      <div className='flex flex-col md:flex-row justify-between'>
         <div className='flex justify-around'>
           <Link to='#' className='mr-3'>
             <RiFacebookBoxFill size={24} />
@@ -27,7 +27,7 @@ export default function Footer() {
             <RiLinkedinBoxFill size={24} />
           </Link>
         </div>
-        <div className='text-sm text-white/70 hover:text-white'>
+        <div className='text-xs md:text-sm mt-3 md:mt-0 text-center text-white/70 hover:text-white'>
           © 2023 SatoFish, Alle Rechte vorbehalten
         </div>
       </div>
