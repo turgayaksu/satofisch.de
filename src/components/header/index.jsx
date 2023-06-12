@@ -10,7 +10,7 @@ export default function Header() {
           <img
             src={Logo}
             alt='Sato Fisch'
-            className='h-4 w-full object-cover md:h-8 opacity-80'
+            className='h-4 object-cover md:h-8 opacity-80'
           />
         </Link>
         <Link to='/' className='m-0 p-0'>
