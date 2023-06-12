@@ -13,7 +13,7 @@ export default function Header() {
             className='h-4 object-cover md:h-8 opacity-80'
           />
         </Link>
-        <Link to='/' className='m-0 p-0'>
+        <Link to='/' className='mr-6 md:mr-0'>
           <CiMenuFries size={24} />
         </Link>
       </div>
