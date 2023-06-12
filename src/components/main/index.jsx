@@ -7,7 +7,7 @@ export default function MainContainer() {
         <h2 className='text-2xl md:text-4xl font-semibold mb-4'>
           Bauarbeiten im Gange
         </h2>
-        <p className='w-full md:w-3/4 opacity-50 mb-4'>
+        <p className='text-justify w-full md:w-3/4 opacity-50 mb-4'>
           Wir erneuern unsere Website, um Sie besser bedienen zu können. Sie
           können sich in unsere E-Mail-Liste eintragen, um besondere
           Überraschungen für die Eröffnung zu erhalten.
